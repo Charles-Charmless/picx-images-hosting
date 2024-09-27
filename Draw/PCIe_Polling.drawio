@@ -4,11 +4,36 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Q6PZ0lG30ob8MFNrXLQL-1" value="Polling.Active" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="RGeqiV2ufjLgtfhNTzdW-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Q6PZ0lG30ob8MFNrXLQL-1" target="RGeqiV2ufjLgtfhNTzdW-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RGeqiV2ufjLgtfhNTzdW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q6PZ0lG30ob8MFNrXLQL-1" target="RGeqiV2ufjLgtfhNTzdW-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q6PZ0lG30ob8MFNrXLQL-1" value="Polling.Active" style="rounded=1;whiteSpace=wrap;html=1;arcSize=19;" parent="1" vertex="1">
           <mxGeometry x="90" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Q6PZ0lG30ob8MFNrXLQL-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="570" y="180" width="120" height="60" as="geometry" />
+        <mxCell id="Q6PZ0lG30ob8MFNrXLQL-2" value="Polling.Compliance" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RGeqiV2ufjLgtfhNTzdW-2" value="Polling.Configuration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RGeqiV2ufjLgtfhNTzdW-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGeqiV2ufjLgtfhNTzdW-8" target="Q6PZ0lG30ob8MFNrXLQL-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RGeqiV2ufjLgtfhNTzdW-8" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;1. Link Control 2 Register .Enter Compliance bit 4 set 1&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;2. More than 1024 TS1 transmitted, but not lane exit EI&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="205" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RGeqiV2ufjLgtfhNTzdW-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGeqiV2ufjLgtfhNTzdW-12" target="RGeqiV2ufjLgtfhNTzdW-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RGeqiV2ufjLgtfhNTzdW-12" value="&lt;span style=&quot;font-size: 11px; text-wrap: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;More than 1024 TS1,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; text-wrap: nowrap;&quot;&gt;all lanes detected communication succeed.&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255); font-size: 11px; text-wrap: nowrap;&quot;&gt;Or 24ms timeout out after Predeterimined set of lanes exit EL&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
